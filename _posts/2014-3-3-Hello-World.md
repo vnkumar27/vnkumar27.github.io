@@ -1,8 +1,4 @@
----
-layout: post
-title: Bootcamp Intro and Challenge 1
-published: true
----
+
 ## Welcome to Bootcamp
 
 I have officially completed 8.33% of the Metis Data Science Bootcamp!
