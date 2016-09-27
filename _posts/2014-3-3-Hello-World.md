@@ -3,5 +3,46 @@ layout: post
 title: Bootcamp Intro and Challenge 1
 published: true
 ---
+## Welcome to Bootcamp
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+I have officially completed 8.33% of the Metis Data Science Bootcamp!
+
+I was both extremely anxious and excited to begin the bootcamp. I knew I wanted to make the career shift into data science but I felt (and still do at times) technically inept, and thus unable to perform up to par. However that is quickly changing, and almost all the credit can go to my peers. The python gurus in my class are readily willing to lend a hand, provide helpful shortcuts, and maintain an encouraging atmosphere for the rest of us that are new to the language. I did not even know what "pair programming" meant until the first day of class, but it is now my favorite activity every day. The level of learning done solely through collaboration and knowledge sharing amongst peers is phenomenal! My cohort has quickly become one of the most valuable resources for this course, especailly with the data overload (heh, see what I did there?) that we receive in such a short period of time.
+
+## Project 1 - Benson
+
+Okay, before I dive into the details of the project, I have to discuss the title. Benson--named after Law and Order SVU detective, Olivia Benson--is my _favorite_ TV detective! So naturally I was even more excited about this project.
+
+The Project
+
+Instructions: We were tasked with analyzing publicly available [MTA turnstile data](http://web.mta.info/developers/turnstile.html) for NYC, and delivering a proposal to a stakeholder based off of the supporting MTA data. 
+
+Proposal: Our group proposed a dynamic pricing model that would implement a fare reduction during off-peak hours in order to:
+1. Decrease congestion during peak hours
+2. Increase ridership
+
+Data: We extracted one week's worth of data from the MTA website and analyzed the total number of entries over a 24-hour time period. 
+
+The data was tricky to interpret because the hours were not uniform across all days. For example, some days had the entries binned into 3 hour time periods, where as others had 4 hour time periods. Due to the time constraints we were under, and the limitations of the available data, we decided to regroup the entries into 4 hour time periods in order to normalize the values. After doing so we found that the "off peak" hours were from 8pm to 8am. Using this knowledge, created the following graphs:
+
+![benson_chart1.png]({{site.baseurl}}/_posts/benson_chart1.png)
+
+
+
+
+![Benson_chart2.png]({{site.baseurl}}/_posts/Benson_chart2.png)
+
+
+Analysis: The first graph above is a line graph of the current entries over a 24-hour period (blue) and the projected entries over the same period if a price shift was implemented. The projected data was created by assuming that there would be less fluctuation in ridership during peak hours, due to work or school commuters who may not have flexibility in their travel time, and higher fluctuation in off-peak ridership. 
+
+Discussion: Further research on subway pricing indicated that an increase or decrease in the price during certain hours can influence rider's behavior to a certain extent. As such, a decrease in fares during off peak hours should theoretically redistribute some of the rider's from peak to off peak hours, and thus alleviate congestion. The lower fare may also encourage more individuals to take the subway over alternate transportation options, thus leading to an increase in overall number of riders.
+
+Conclusion: There is much more analysis and research to be done, however given the limited time we had to complete the project I believe we came up with a decent proposal! 
+
+## Concluding Remarks
+
+Overall, the first week went by fast! I am looking forward the following weeks and continuing to learn and engage in hands-on work like we have been doing so far.
+
+
+
+
